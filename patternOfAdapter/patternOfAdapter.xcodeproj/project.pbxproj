@@ -169,12 +169,12 @@
 		F3DB3B6125825DE800696AEB /* ObjectAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				F3DB3B6225825DE800696AEB /* CardAdapter.h */,
-				F3DB3B6325825DE800696AEB /* ModelAdapter.m */,
+				F3DB3B6725825DE800696AEB /* NewCardModelApater.h */,
 				F3DB3B6425825DE800696AEB /* NewCardModelApater.m */,
 				F3DB3B6525825DE800696AEB /* ModelAdapter.h */,
+				F3DB3B6325825DE800696AEB /* ModelAdapter.m */,
+				F3DB3B6225825DE800696AEB /* CardAdapter.h */,
 				F3DB3B6625825DE800696AEB /* CardAdapter.m */,
-				F3DB3B6725825DE800696AEB /* NewCardModelApater.h */,
 			);
 			path = ObjectAdapter;
 			sourceTree = "<group>";
@@ -182,9 +182,9 @@
 		F3DB3B6825825DE800696AEB /* BaseAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				F3DB3B6B25825DE800696AEB /* BaseAdapterAsis.h */,
 				F3DB3B6925825DE800696AEB /* BaseAdapterAsis.m */,
 				F3DB3B6A25825DE800696AEB /* BaseAdapterAsisProtocol.h */,
-				F3DB3B6B25825DE800696AEB /* BaseAdapterAsis.h */,
 			);
 			path = BaseAdapter;
 			sourceTree = "<group>";
