@@ -55,10 +55,6 @@
     //与输出建立联系
     [cardView loadData:modelAdapter];
 
-    GamePadDecorator *decorator = [GamePadDecorator new];
-    [decorator up];
-    [decorator cheat];
-
 
 
 

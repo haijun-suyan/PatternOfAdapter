@@ -22,9 +22,6 @@
 		F36B97EE2AFBA315009F796A /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97E22AFBA315009F796A /* BusinessCardView.m */; };
 		F36B97EF2AFBA315009F796A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97E52AFBA315009F796A /* Model.m */; };
 		F36B97F02AFBA315009F796A /* NewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97E62AFBA315009F796A /* NewCardModel.m */; };
-		F36B97F32AFBA453009F796A /* GamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97F22AFBA453009F796A /* GamePad.m */; };
-		F36B97F62AFBA530009F796A /* GamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97F52AFBA530009F796A /* GamePadDecorator.m */; };
-		F36B97FC2AFBACC0009F796A /* GamePad+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97FB2AFBACC0009F796A /* GamePad+Cheat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,12 +73,6 @@
 		F36B97E62AFBA315009F796A /* NewCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardModel.m; sourceTree = "<group>"; };
 		F36B97E72AFBA315009F796A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		F36B97E82AFBA315009F796A /* NewCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardModel.h; sourceTree = "<group>"; };
-		F36B97F12AFBA453009F796A /* GamePad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePad.h; sourceTree = "<group>"; };
-		F36B97F22AFBA453009F796A /* GamePad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePad.m; sourceTree = "<group>"; };
-		F36B97F42AFBA530009F796A /* GamePadDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePadDecorator.h; sourceTree = "<group>"; };
-		F36B97F52AFBA530009F796A /* GamePadDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePadDecorator.m; sourceTree = "<group>"; };
-		F36B97FA2AFBACC0009F796A /* GamePad+Cheat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePad+Cheat.h"; sourceTree = "<group>"; };
-		F36B97FB2AFBACC0009F796A /* GamePad+Cheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Cheat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +123,7 @@
 		76372D7F1E5548CA00A80177 /* patternOfAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				F36B97FA2AFBACC0009F796A /* GamePad+Cheat.h */,
-				F36B97FB2AFBACC0009F796A /* GamePad+Cheat.m */,
 				F36B97D52AFBA315009F796A /* patternOfAdapter1 */,
-				F36B97E92AFBA315009F796A /* patternOfAdapter2 */,
 				76372D831E5548CA00A80177 /* AppDelegate.h */,
 				76372D841E5548CA00A80177 /* AppDelegate.m */,
 				76372D861E5548CA00A80177 /* ViewController.h */,
@@ -227,17 +215,6 @@
 				F36B97E62AFBA315009F796A /* NewCardModel.m */,
 			);
 			path = DataModel;
-			sourceTree = "<group>";
-		};
-		F36B97E92AFBA315009F796A /* patternOfAdapter2 */ = {
-			isa = PBXGroup;
-			children = (
-				F36B97F12AFBA453009F796A /* GamePad.h */,
-				F36B97F22AFBA453009F796A /* GamePad.m */,
-				F36B97F42AFBA530009F796A /* GamePadDecorator.h */,
-				F36B97F52AFBA530009F796A /* GamePadDecorator.m */,
-			);
-			path = patternOfAdapter2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,14 +354,11 @@
 			files = (
 				F36B97EA2AFBA315009F796A /* BaseAdapterAsis.m in Sources */,
 				F36B97EC2AFBA315009F796A /* NewCardModelApater.m in Sources */,
-				F36B97F32AFBA453009F796A /* GamePad.m in Sources */,
 				F36B97F02AFBA315009F796A /* NewCardModel.m in Sources */,
 				76372D881E5548CA00A80177 /* ViewController.m in Sources */,
 				F36B97EF2AFBA315009F796A /* Model.m in Sources */,
 				76372D851E5548CA00A80177 /* AppDelegate.m in Sources */,
-				F36B97F62AFBA530009F796A /* GamePadDecorator.m in Sources */,
 				F36B97ED2AFBA315009F796A /* CardAdapter.m in Sources */,
-				F36B97FC2AFBACC0009F796A /* GamePad+Cheat.m in Sources */,
 				F36B97EB2AFBA315009F796A /* ModelAdapter.m in Sources */,
 				F36B97EE2AFBA315009F796A /* BusinessCardView.m in Sources */,
 				76372D821E5548CA00A80177 /* main.m in Sources */,
