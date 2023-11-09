@@ -15,13 +15,16 @@
 		76372D901E5548CA00A80177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76372D8E1E5548CA00A80177 /* LaunchScreen.storyboard */; };
 		76372D9B1E5548CA00A80177 /* patternOfAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372D9A1E5548CA00A80177 /* patternOfAdapterTests.m */; };
 		76372DA61E5548CA00A80177 /* patternOfAdapterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DA51E5548CA00A80177 /* patternOfAdapterUITests.m */; };
-		F3DB3B7425825DE900696AEB /* ModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB3B6325825DE800696AEB /* ModelAdapter.m */; };
-		F3DB3B7525825DE900696AEB /* NewCardModelApater.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB3B6425825DE800696AEB /* NewCardModelApater.m */; };
-		F3DB3B7625825DE900696AEB /* CardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB3B6625825DE800696AEB /* CardAdapter.m */; };
-		F3DB3B7725825DE900696AEB /* BaseAdapterAsis.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB3B6925825DE800696AEB /* BaseAdapterAsis.m */; };
-		F3DB3B7825825DE900696AEB /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB3B6D25825DE900696AEB /* Model.m */; };
-		F3DB3B7925825DE900696AEB /* NewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB3B6E25825DE900696AEB /* NewCardModel.m */; };
-		F3DB3B7A25825DE900696AEB /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB3B7225825DE900696AEB /* BusinessCardView.m */; };
+		F36B97EA2AFBA315009F796A /* BaseAdapterAsis.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97D72AFBA315009F796A /* BaseAdapterAsis.m */; };
+		F36B97EB2AFBA315009F796A /* ModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97DC2AFBA315009F796A /* ModelAdapter.m */; };
+		F36B97EC2AFBA315009F796A /* NewCardModelApater.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97DD2AFBA315009F796A /* NewCardModelApater.m */; };
+		F36B97ED2AFBA315009F796A /* CardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97DF2AFBA315009F796A /* CardAdapter.m */; };
+		F36B97EE2AFBA315009F796A /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97E22AFBA315009F796A /* BusinessCardView.m */; };
+		F36B97EF2AFBA315009F796A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97E52AFBA315009F796A /* Model.m */; };
+		F36B97F02AFBA315009F796A /* NewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97E62AFBA315009F796A /* NewCardModel.m */; };
+		F36B97F32AFBA453009F796A /* GamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97F22AFBA453009F796A /* GamePad.m */; };
+		F36B97F62AFBA530009F796A /* GamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97F52AFBA530009F796A /* GamePadDecorator.m */; };
+		F36B97FC2AFBACC0009F796A /* GamePad+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B97FB2AFBACC0009F796A /* GamePad+Cheat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,21 +61,27 @@
 		76372DA11E5548CA00A80177 /* patternOfAdapterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patternOfAdapterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76372DA51E5548CA00A80177 /* patternOfAdapterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = patternOfAdapterUITests.m; sourceTree = "<group>"; };
 		76372DA71E5548CA00A80177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3DB3B6225825DE800696AEB /* CardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAdapter.h; sourceTree = "<group>"; };
-		F3DB3B6325825DE800696AEB /* ModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelAdapter.m; sourceTree = "<group>"; };
-		F3DB3B6425825DE800696AEB /* NewCardModelApater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardModelApater.m; sourceTree = "<group>"; };
-		F3DB3B6525825DE800696AEB /* ModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelAdapter.h; sourceTree = "<group>"; };
-		F3DB3B6625825DE800696AEB /* CardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardAdapter.m; sourceTree = "<group>"; };
-		F3DB3B6725825DE800696AEB /* NewCardModelApater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardModelApater.h; sourceTree = "<group>"; };
-		F3DB3B6925825DE800696AEB /* BaseAdapterAsis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAdapterAsis.m; sourceTree = "<group>"; };
-		F3DB3B6A25825DE800696AEB /* BaseAdapterAsisProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAdapterAsisProtocol.h; sourceTree = "<group>"; };
-		F3DB3B6B25825DE800696AEB /* BaseAdapterAsis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAdapterAsis.h; sourceTree = "<group>"; };
-		F3DB3B6D25825DE900696AEB /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
-		F3DB3B6E25825DE900696AEB /* NewCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardModel.m; sourceTree = "<group>"; };
-		F3DB3B6F25825DE900696AEB /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
-		F3DB3B7025825DE900696AEB /* NewCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardModel.h; sourceTree = "<group>"; };
-		F3DB3B7225825DE900696AEB /* BusinessCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardView.m; sourceTree = "<group>"; };
-		F3DB3B7325825DE900696AEB /* BusinessCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardView.h; sourceTree = "<group>"; };
+		F36B97D72AFBA315009F796A /* BaseAdapterAsis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAdapterAsis.m; sourceTree = "<group>"; };
+		F36B97D82AFBA315009F796A /* BaseAdapterAsisProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAdapterAsisProtocol.h; sourceTree = "<group>"; };
+		F36B97D92AFBA315009F796A /* BaseAdapterAsis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAdapterAsis.h; sourceTree = "<group>"; };
+		F36B97DB2AFBA315009F796A /* CardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAdapter.h; sourceTree = "<group>"; };
+		F36B97DC2AFBA315009F796A /* ModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelAdapter.m; sourceTree = "<group>"; };
+		F36B97DD2AFBA315009F796A /* NewCardModelApater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardModelApater.m; sourceTree = "<group>"; };
+		F36B97DE2AFBA315009F796A /* ModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelAdapter.h; sourceTree = "<group>"; };
+		F36B97DF2AFBA315009F796A /* CardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardAdapter.m; sourceTree = "<group>"; };
+		F36B97E02AFBA315009F796A /* NewCardModelApater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardModelApater.h; sourceTree = "<group>"; };
+		F36B97E22AFBA315009F796A /* BusinessCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardView.m; sourceTree = "<group>"; };
+		F36B97E32AFBA315009F796A /* BusinessCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardView.h; sourceTree = "<group>"; };
+		F36B97E52AFBA315009F796A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F36B97E62AFBA315009F796A /* NewCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardModel.m; sourceTree = "<group>"; };
+		F36B97E72AFBA315009F796A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F36B97E82AFBA315009F796A /* NewCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardModel.h; sourceTree = "<group>"; };
+		F36B97F12AFBA453009F796A /* GamePad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePad.h; sourceTree = "<group>"; };
+		F36B97F22AFBA453009F796A /* GamePad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePad.m; sourceTree = "<group>"; };
+		F36B97F42AFBA530009F796A /* GamePadDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePadDecorator.h; sourceTree = "<group>"; };
+		F36B97F52AFBA530009F796A /* GamePadDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePadDecorator.m; sourceTree = "<group>"; };
+		F36B97FA2AFBACC0009F796A /* GamePad+Cheat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePad+Cheat.h"; sourceTree = "<group>"; };
+		F36B97FB2AFBACC0009F796A /* GamePad+Cheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Cheat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +132,10 @@
 		76372D7F1E5548CA00A80177 /* patternOfAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				F3DB3B6825825DE800696AEB /* BaseAdapter */,
-				F3DB3B6C25825DE900696AEB /* DataModel */,
-				F3DB3B6125825DE800696AEB /* ObjectAdapter */,
-				F3DB3B7125825DE900696AEB /* ViewCustom */,
+				F36B97FA2AFBACC0009F796A /* GamePad+Cheat.h */,
+				F36B97FB2AFBACC0009F796A /* GamePad+Cheat.m */,
+				F36B97D52AFBA315009F796A /* patternOfAdapter1 */,
+				F36B97E92AFBA315009F796A /* patternOfAdapter2 */,
 				76372D831E5548CA00A80177 /* AppDelegate.h */,
 				76372D841E5548CA00A80177 /* AppDelegate.m */,
 				76372D861E5548CA00A80177 /* ViewController.h */,
@@ -166,47 +175,69 @@
 			path = patternOfAdapterUITests;
 			sourceTree = "<group>";
 		};
-		F3DB3B6125825DE800696AEB /* ObjectAdapter */ = {
+		F36B97D52AFBA315009F796A /* patternOfAdapter1 */ = {
 			isa = PBXGroup;
 			children = (
-				F3DB3B6725825DE800696AEB /* NewCardModelApater.h */,
-				F3DB3B6425825DE800696AEB /* NewCardModelApater.m */,
-				F3DB3B6525825DE800696AEB /* ModelAdapter.h */,
-				F3DB3B6325825DE800696AEB /* ModelAdapter.m */,
-				F3DB3B6225825DE800696AEB /* CardAdapter.h */,
-				F3DB3B6625825DE800696AEB /* CardAdapter.m */,
+				F36B97E42AFBA315009F796A /* DataModel */,
+				F36B97D62AFBA315009F796A /* BaseAdapter */,
+				F36B97DA2AFBA315009F796A /* ObjectAdapter */,
+				F36B97E12AFBA315009F796A /* ViewCustom */,
 			);
-			path = ObjectAdapter;
+			path = patternOfAdapter1;
 			sourceTree = "<group>";
 		};
-		F3DB3B6825825DE800696AEB /* BaseAdapter */ = {
+		F36B97D62AFBA315009F796A /* BaseAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				F3DB3B6B25825DE800696AEB /* BaseAdapterAsis.h */,
-				F3DB3B6925825DE800696AEB /* BaseAdapterAsis.m */,
-				F3DB3B6A25825DE800696AEB /* BaseAdapterAsisProtocol.h */,
+				F36B97D92AFBA315009F796A /* BaseAdapterAsis.h */,
+				F36B97D72AFBA315009F796A /* BaseAdapterAsis.m */,
+				F36B97D82AFBA315009F796A /* BaseAdapterAsisProtocol.h */,
 			);
 			path = BaseAdapter;
 			sourceTree = "<group>";
 		};
-		F3DB3B6C25825DE900696AEB /* DataModel */ = {
+		F36B97DA2AFBA315009F796A /* ObjectAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				F3DB3B6D25825DE900696AEB /* Model.m */,
-				F3DB3B6E25825DE900696AEB /* NewCardModel.m */,
-				F3DB3B6F25825DE900696AEB /* Model.h */,
-				F3DB3B7025825DE900696AEB /* NewCardModel.h */,
+				F36B97DB2AFBA315009F796A /* CardAdapter.h */,
+				F36B97DF2AFBA315009F796A /* CardAdapter.m */,
+				F36B97DE2AFBA315009F796A /* ModelAdapter.h */,
+				F36B97DC2AFBA315009F796A /* ModelAdapter.m */,
+				F36B97E02AFBA315009F796A /* NewCardModelApater.h */,
+				F36B97DD2AFBA315009F796A /* NewCardModelApater.m */,
+			);
+			path = ObjectAdapter;
+			sourceTree = "<group>";
+		};
+		F36B97E12AFBA315009F796A /* ViewCustom */ = {
+			isa = PBXGroup;
+			children = (
+				F36B97E32AFBA315009F796A /* BusinessCardView.h */,
+				F36B97E22AFBA315009F796A /* BusinessCardView.m */,
+			);
+			path = ViewCustom;
+			sourceTree = "<group>";
+		};
+		F36B97E42AFBA315009F796A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F36B97E72AFBA315009F796A /* Model.h */,
+				F36B97E52AFBA315009F796A /* Model.m */,
+				F36B97E82AFBA315009F796A /* NewCardModel.h */,
+				F36B97E62AFBA315009F796A /* NewCardModel.m */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
 		};
-		F3DB3B7125825DE900696AEB /* ViewCustom */ = {
+		F36B97E92AFBA315009F796A /* patternOfAdapter2 */ = {
 			isa = PBXGroup;
 			children = (
-				F3DB3B7225825DE900696AEB /* BusinessCardView.m */,
-				F3DB3B7325825DE900696AEB /* BusinessCardView.h */,
+				F36B97F12AFBA453009F796A /* GamePad.h */,
+				F36B97F22AFBA453009F796A /* GamePad.m */,
+				F36B97F42AFBA530009F796A /* GamePadDecorator.h */,
+				F36B97F52AFBA530009F796A /* GamePadDecorator.m */,
 			);
-			path = ViewCustom;
+			path = patternOfAdapter2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,16 +375,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3DB3B7725825DE900696AEB /* BaseAdapterAsis.m in Sources */,
-				F3DB3B7525825DE900696AEB /* NewCardModelApater.m in Sources */,
-				F3DB3B7A25825DE900696AEB /* BusinessCardView.m in Sources */,
-				F3DB3B7625825DE900696AEB /* CardAdapter.m in Sources */,
-				F3DB3B7825825DE900696AEB /* Model.m in Sources */,
+				F36B97EA2AFBA315009F796A /* BaseAdapterAsis.m in Sources */,
+				F36B97EC2AFBA315009F796A /* NewCardModelApater.m in Sources */,
+				F36B97F32AFBA453009F796A /* GamePad.m in Sources */,
+				F36B97F02AFBA315009F796A /* NewCardModel.m in Sources */,
 				76372D881E5548CA00A80177 /* ViewController.m in Sources */,
+				F36B97EF2AFBA315009F796A /* Model.m in Sources */,
 				76372D851E5548CA00A80177 /* AppDelegate.m in Sources */,
+				F36B97F62AFBA530009F796A /* GamePadDecorator.m in Sources */,
+				F36B97ED2AFBA315009F796A /* CardAdapter.m in Sources */,
+				F36B97FC2AFBACC0009F796A /* GamePad+Cheat.m in Sources */,
+				F36B97EB2AFBA315009F796A /* ModelAdapter.m in Sources */,
+				F36B97EE2AFBA315009F796A /* BusinessCardView.m in Sources */,
 				76372D821E5548CA00A80177 /* main.m in Sources */,
-				F3DB3B7425825DE900696AEB /* ModelAdapter.m in Sources */,
-				F3DB3B7925825DE900696AEB /* NewCardModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
