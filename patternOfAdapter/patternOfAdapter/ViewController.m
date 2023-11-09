@@ -16,6 +16,8 @@
 #import "NewCardModelApater.h"
 #import "CardAdapter.h"
 
+#import "GamePadDecorator.h"
+
 @interface ViewController ()
 
 @end
@@ -52,6 +54,15 @@
     BaseAdapterAsis *modelAdapter = [[CardAdapter alloc] initWithData:newCardModel];
     //与输出建立联系
     [cardView loadData:modelAdapter];
+
+    GamePadDecorator *decorator = [GamePadDecorator new];
+    [decorator up];
+    [decorator cheat];
+
+
+
+
+
 
 }
 
